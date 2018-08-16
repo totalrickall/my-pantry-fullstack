@@ -1,0 +1,323 @@
+.btn-rounded {
+    border-radius: '50px';
+}
+
+/* 
+.cardFont{
+    color: aliceblue
+} */
+
+#dropdownMenuButton {
+    background-color: #fc714c;
+}
+
+.d-block.w-100 {
+    width: 100%;
+    height: 800px;
+}
+
+.home-page-container {
+    /* background-color: #73675b;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.search-input {
+    border: none !important;
+}
+
+.search-input:focus {
+    outline: none !important;
+}
+
+.home-page-container h2 {
+    margin-top: 5px;
+    text-align: center;
+    /* color: beige */
+}
+
+.signup-page-container {
+    /* background-image: url("http://www.mountainsky.com/wp-content/uploads/2017/04/Fine-Dining.jpg"); */
+}
+
+[data-class='UserStorage'] {
+    padding-top: 4em;
+}
+
+[data-class='UserStorage'] table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+[data-class='UserStorage'] table thead th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(252, 113, 76);
+    color: white;
+}
+
+[data-class='UserStorage'] table thead th td {
+    border: 1px solid black;
+}
+
+[data-class='UserStorage'] table tbody tr:nth-of-type(even) {
+    background-color: lightgrey;
+}
+
+[data-class='UserStorage'] table tbody tr:hover {
+    background-color: #ddd;
+}
+
+[data-class='UserStorage'] table tbody tr td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.featured-dishes {
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 800%;
+    color: white;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.user-page-container {
+    /* background-color: #73675b;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+#home-header {
+    padding-top: 150px;
+    padding-right: 30px;
+    padding-bottom: 150px;
+    padding-left: 80px;
+    text-align: center;
+    background-image: url('http://ce.unm.edu/assets/imgs/enrich/cooking-header');
+}
+
+#home-sub-header {
+    text-align: center;
+    padding: 80px;
+}
+
+#todays-recipes {
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman',
+        serif;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+/* #h4-sub-header {
+    font-weight: bolder;
+    font-size: 300%
+} */
+
+.h4-sub-header {
+    font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman',
+        serif;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 33px;
+    padding: 30px;
+}
+
+.h5-sub-header {
+    font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman',
+        serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 20px;
+}
+
+.featured-recipes {
+    font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman',
+        serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 20px;
+}
+
+.home-page-container .carousel-item {
+    position: relative;
+}
+
+.home-page-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.carousel-inner {
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
+}
+
+.carousel-inner:hover .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.carousel-inner:hover .overlay button {
+    animation: SlideUp 1000ms forwards;
+    color: whitesmoke;
+}
+
+#homecard {
+    border-radius: 10%;
+}
+
+#homecard:hover .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#homecard:hover .overlay button {
+    animation: SlideUp 1000ms forwards;
+}
+
+@keyframes SlideUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+}
+
+#home-link-image {
+    width: 100%;
+    height: 500px;
+}
+
+#carousel-image {
+    width: 100%;
+    height: 800px;
+}
+
+#popular-links1 .card {
+    float: left;
+}
+
+#home-image-links {
+    height: auto;
+    min-height: 450px;
+    max-height: 450px;
+}
+
+#popular-links1 {
+}
+
+/* .home-page-container {
+    background-color: floralwhite;
+} */
+
+#headers {
+    background-color: floralwhite;
+}
+
+#headers {
+    background-color: white;
+}
+
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.home-page-container form input:disabled {
+    background-color: transparent !important;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    display: inline-block;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    display: inline-block;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+    display: inline-block;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+    display: inline-block;
+}
+
+.media-links {
+    text-align: center;
+}
+
+#contact-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    font-weight: bold;
+}
+
+.homepage-h3 {
+    font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman',
+        serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+}
+
+#homepage-footer {
+    background-color: darkgrey;
+}
+
+.featured-recipe-container {
+    background-color: beige
+}
